@@ -17,8 +17,6 @@ from rest_framework_simplejwt.tokens import RefreshToken
 from reviews.models import Category, Genre, Review, Title
 from users.models import User
 
-from reviews.models import Genre, Title, Category, Review, User
-
 from .viewsets import ListCreateDestroyViewSet
 from .filters import TitleFilter
 from .serializers import (
